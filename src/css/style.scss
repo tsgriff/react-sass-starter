@@ -1,0 +1,57 @@
+//Setup
+@import 'partials/normalize';
+@import 'partials/reset';
+@import 'partials/variables';
+@import 'partials/helpers';
+@import 'partials/mixins';
+
+//Base styles
+@import 'base/base';
+
+//Component Styles
+@import 'components/header';
+@import 'components/footer';
+@import 'components/menu';
+
+/* Coded by Taylor Griffith */
+
+body {
+  background-color: #F4F9FD;
+}
+
+/* Dashboard */
+
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-control {
+  font-family: 'Lato', sans-serif;
+  color: #425B76;
+  font-size: 24px;
+  margin: 30px 0 0 50px;
+}
+
+.email-us {
+  align-self: flex-end;
+  font-family: 'Lato', sans-serif;
+  color: #AAA8A8;
+  font-size: 14px;
+  margin-right: 50px;
+  margin-top: -15px;
+}
+
+.email-link {
+  font-family: 'Lato', sans-serif;
+  color: #4791CE;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.dashboard-subtitle {
+  font-family: 'Lato', sans-serif;
+  color: #AAA8A8;
+  font-size: 14px;
+  margin-left: 50px;
+}

@@ -12,6 +12,7 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const getClientEnvironment = require('./env');
 const paths = require('./paths');
 
+
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
 const publicPath = '/';
@@ -193,7 +194,7 @@ module.exports = {
             ],
           },
           {
-            test: /\.sass$/,
+            test: /\.scss$/,
             use: [
               require.resolve('style-loader'),
               {
@@ -220,7 +221,7 @@ module.exports = {
             // it's runtime that would otherwise processed through "file" loader.
             // Also exclude `html` and `json` extensions so they get processed
             // by webpacks internal loaders.
-            exclude: [/\.js$/, /\.html$/, /\.json$/, /\.css$/, /\.sass$/],
+            exclude: [/\.js$/, /\.html$/, /\.json$/, /\.css$/, /\.scss$/],
             loader: require.resolve('file-loader'),
             options: {
               name: 'static/media/[name].[hash:8].[ext]',

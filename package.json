@@ -1,5 +1,5 @@
 {
-  "name": "react-sass-starter",
+  "name": "kruze-taxservice-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,6 +51,10 @@
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
     "sass-loader": "^6.0.6",
     "webpack": "^3.5.5"
   },

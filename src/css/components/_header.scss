@@ -1,0 +1,25 @@
+header{
+  height: 100px;
+  width: 100%;
+  background: rgb(53,101,156); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(53,101,156,1) 0%, rgba(72,146,207,1) 40%, rgba(118,213,235,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(53,101,156,1) 0%,rgba(72,146,207,1) 40%,rgba(118,213,235,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(53,101,156,1) 0%,rgba(72,146,207,1) 40%,rgba(118,213,235,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35659c', endColorstr='#76d5eb',GradientType=1 ); /* IE6-9 */
+  position: relative;
+  box-shadow: none;
+
+.logo-contain {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+  .logo-pic{
+    width: 134px;
+    height: 41px;
+    margin-left: 50px;
+ }
+}
